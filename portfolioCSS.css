@@ -1,0 +1,37 @@
+.colors {
+    background: linear-gradient(black, #000099, #66c2ff, #66c2ff, #66c2ff, #66c2ff, #66c2ff, #66c2ff, #66c2ff, #66c2ff, #ffeee6);
+    color: whitesmoke;  
+}
+.center {
+    text-align: center;
+}
+.padding {
+    border-radius: 15px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    /*background-color: royalblue;*/
+}
+.paddingTwo {
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    /*background-color:teal;*/
+    padding-left: 7px;
+}
+.paddingThree {
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    background-color:royalblue;
+    padding-left: 7px;
+    margin-top: 7px;
+}
+.fontArial {
+    font-family: Arial;
+}
+.fontGeorgia {
+    font-family: Georgia;
+}
