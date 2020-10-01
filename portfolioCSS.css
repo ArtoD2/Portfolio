@@ -1,41 +1,30 @@
 html {
     height: 100%;
-}
-.bod {
-    background: linear-gradient(black, #000099, #66c2ff, white);
-    color: whitesmoke;
-    height: 100%; 
-    /*background-position: center;
+    background: linear-gradient(black, #000099, #0066ff,#66c2ff, white);
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-position: center;
+    background-size: cover;
+}
+body {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 .center {
     text-align: center;
 }
-/*.padding {
-    border-radius: 15px;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
-    /*background-color: royalblue;*/
-
 .padding {
     border-color: black;
     border-radius: 10px;
     border-width: 5px;
     border-style: solid;
-    background: linear-gradient(25deg, #000099, #66c2ff, black);
+    background: linear-gradient(25deg, black, #0066ff, black); /*Royal Blue*/
     padding-left: 7px;
-    margin-top: 7px;
-}
-.paddingTwo {
-    border-color: black;
-    border-radius: 10px;
-    border-width: 5px;
-    border-style: solid;
-    background-color:royalblue;
-    padding-left: 7px;
-    margin-top: 7px;
+    padding-right: 10px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
 }
 .fontArial {
     font-family: Arial;
