@@ -1,3 +1,3 @@
 const refreshPage = () => {
-    window.location.reload();
+    location.reload();
 }

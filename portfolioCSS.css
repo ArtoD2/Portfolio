@@ -31,22 +31,37 @@ body {
         top: 0px;
     }
 }
-.pop {
+.padding {
+    border-color: black;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+    background: #000099;
+}
+.padding:hover {
     animation-name: pop;
-
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
 }
 @keyframes pop {
-    100% {
-        
+    0% {
+        transform: scale(1,1);
     }
-}
-.center {
-    text-align: center;
+    100% {
+        transform: scale(1.07,1.07);
+    }
 }
 button {
     background-color: #000099;
     color: white;
     margin-top: 5%;
+    margin-bottom: 5%;
     padding: 5px 10px 8px 10px;
   }
 button:hover {
@@ -60,18 +75,8 @@ button:hover {
         background-color: white;
     }
 }
-.padding {
-    border-color: black;
-    border-radius: 10px;
-    border-width: 5px;
-    border-style: solid;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
-    align-content: center;
-    background: #000099;
+.center {
+    text-align: center;
 }
 .skillsGrid {
     display: grid;
