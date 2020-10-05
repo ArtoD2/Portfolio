@@ -2,32 +2,55 @@
 <html>
 
 <link rel="stylesheet" type="text/css" href="portfolioCSS.css"> 
-<div  class="center fontArial">
+<div  class="center fontLucida">
     <head id="Head of the website">
-        <title>Portfolio: Arto Sekepyan</title>
+        <header>
+            <title>Arto Sekepyan: Web Developer</title>
+        </header>
         <h1>Arto Sekepyan</h1>
         <h3>Web Developer</h3>
     </head>
 </div>
 <div>
-    <body id="Resume">
+    <body id="Resume" class="slide">
+        <form id="personal info"class="padding fontGeorgia">
+            <h3 class="center"><em>About me:</em></h3>
+            <p class="fontArial">I'm an apsiring web developer; and after pursuing web 
+                development I've been invigerated with interest to  make it into 
+                a career. My interests outside of web development are motorcycles, music production,
+                reading, video-games, and exercising. 
+            </p>
+        </form>
         <form id="skills"class="padding fontGeorgia">
             <h3 class="center"><em>Skills:</em></h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python</li>
-                <li>Javascript</li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="skillsGrid">
+                <div class="skillsFlex">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </div>
+                <div class="skillsFlex">
+                    <li>Python</li>
+                    <li>Javascript</li>
+                </div>
+                <div class="skillsFlex">
+                    <li>React.JS</li>
+                    <li>Express.JS</li>
+                </div>
+                <div class="skillsFlex">
+                    <li>Node.JS</li>
+                    <li>MongoDB</li>
+                </div>
             </ul>
         </form>
         <form id="Projects"class="padding fontGeorgia">
             <h3 class="center"><em>Projects:</em></h3>
             <ul>
-                <!--JAVASCRIPT?-->
-                <li></li>
+                <li>Video-Games CRUD Project</li>
+                <ul>
+                    <li class="fontLucida">The goal of this project was to create a basic CRUD application with
+                        a recognizable user interface pertaining to something popular, video-games.
+                    </li>
+                </ul>
             </ul>
         </form>
             <form id="Education"class="padding fontGeorgia">
@@ -35,14 +58,18 @@
                     <ul>
                         <li>Helio Training: Classroom based</li>
                             <ul>
-                                <li>Full Stack Web Development Certificate: During the bootcamp we worked on Databasing through MongoDB, 
-                                    implementing React.js, Node.js, Express.js, and implementing standard
+                                <li class="fontLucida">Full Stack Web Development Certificate: <br/>
+                                    During the bootcamp we worked on Databasing through MongoDB, 
+                                    implementing React.js, Node.js, Express.js, and standard
                                     CRUD applications</li>
                             </ul>
                         <li>CodeCamp: Self-taught</li>
                             <ul>
-                                <li>Responsive Web Design Certification: which covers teaching HTML, CSS, 
-                                    Visual Design, Accessibility, plus a test of 5 different programming projects
+                                <li class="fontLucida">Responsive Web Design Certification: <br/>
+                                    which covers teaching HTML, CSS, 
+                                    Grid & Flexbox, Visual Design, Accessibility, plus a test of 5 different programming projects 
+                                </li>
+                                <li class="fontLucida">
                                 </li>
                             </ul>
                     </ul>
@@ -51,23 +78,16 @@
             <h3 class="center"><em>Resume:</em></h3>
             <!-- JAVASCRIPT-->
         </form>
-        <form id="personal info"class="padding fontGeorgia">
-            <h3 class="center"><em>About me:</em></h3>
-            <p class="fontArial">I'm an apsiring web developer; and after pursuing web 
-                development I've been invigerated with interest to pursue it and make it into 
-                a career. My interests outside of web development are motorcycles, music production,
-                reading, video-games, and exercising. 
-            </p>
-        </form>
         <form id="Contact Information" class="padding">
             <h3 class="center"><em>Contact Info/Links</em></h3>
-            <!-- JAVASCRIPT
                 <ul class="fontArial">
                 <li>(801)889-0884</li>
                 <li>artosekepyan@gmail.com</li>
                 <li>GitHub <a href=https://github.com/ArtoD2 target="_blank">link</a></li>
-            </ul>-->
+            </ul>
         </form>
+        <script src="portfolioJS.js"></script>
+            <button onclick="refreshPage()">Refresh Animation</button>
     </body>
 </div>
 </html>

@@ -1,34 +1,93 @@
 html {
-    height: 100%;
-    background: linear-gradient(black, #000099, #0066ff,#66c2ff, white);
+    height: 150%;
+    background: linear-gradient(black, #000099, #0066ff,#66c2ff, white, white, white);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+head {
+    position: fixed;
 }
 body {
     color: whitesmoke;
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin: 50px;
+}
+.slide {
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes slide {
+    0% {
+        top: 1200px;
+    }
+    50% {
+        top: -50px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+.pop {
+    animation-name: pop;
+
+}
+@keyframes pop {
+    100% {
+        
+    }
 }
 .center {
     text-align: center;
+}
+button {
+    background-color: #000099;
+    color: white;
+    margin-top: 5%;
+    padding: 5px 10px 8px 10px;
+  }
+button:hover {
+    animation-name: button;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes button {
+    100% {
+        color: black;
+        background-color: white;
+    }
 }
 .padding {
     border-color: black;
     border-radius: 10px;
     border-width: 5px;
     border-style: solid;
-    background: linear-gradient(25deg, black, #0066ff, black); /*Royal Blue*/
-    padding-left: 7px;
+    padding-left: 10px;
     padding-right: 10px;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 10%;
     margin-right: 10%;
     align-content: center;
+    background: #000099;
+}
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 1%;
+}
+.skillsFlex {
+    display: flex;
+    flex-flow: column;
+}
+.fontLucida {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .fontArial {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 .fontGeorgia {
-    font-family: Georgia;
+    font-family: Georgia, serif;
 }
