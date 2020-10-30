@@ -1,19 +1,19 @@
 html {
-    height: 150%;
-    background: linear-gradient(black, #000099, #0066ff,#66c2ff, white, white, white);
+    height: 100%;
+    background: linear-gradient(#000099, #000099, #0066ff,0066ff, #66c2ff, white, white, white);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-head {
-    position: fixed;
-}
 body {
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: 50px;
+    color:whitesmoke;
+}
+a {
+    display: block; 
+    width: 45px;
+}
+img {
+    width: 100%;
 }
 .slide {
     animation-name: slide;
@@ -78,15 +78,6 @@ button:hover {
 .center {
     text-align: center;
 }
-.skillsGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-right: 1%;
-}
-.skillsFlex {
-    display: flex;
-    flex-flow: column;
-}
 .fontLucida {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -95,4 +86,35 @@ button:hover {
 }
 .fontGeorgia {
     font-family: Georgia, serif;
+}
+.linksFlex {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 1%;
+}
+.skillsFlex {
+    display: flex;
+    flex-flow: column;
+    margin-right: 1%;
+}
+.linkMargin {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.projectMarginEdit {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.black {
+    color: black;
+}
+.grey {
+    color: darkgrey;
 }
