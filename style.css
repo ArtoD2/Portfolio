@@ -1,7 +1,9 @@
+html {
+    height: 100%;
+}
 body {
     color:whitesmoke;
     background-image: linear-gradient(#000099, #000099, #0066ff,#0066ff, #66c2ff, white, white, white);
-    height: 200%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
