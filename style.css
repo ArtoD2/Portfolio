@@ -1,12 +1,10 @@
-html {
+body,html {
+    color:whitesmoke;
+    background-image: linear-gradient(#000099, #000099, #0066ff,#0066ff, #66c2ff, white, white, white);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-body {
-    color:whitesmoke;
-    background-image: linear-gradient(#000099, #000099, #0066ff,#0066ff, #66c2ff, white, white, white);
 }
 a {
     display: block; 
