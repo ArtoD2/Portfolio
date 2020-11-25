@@ -11,18 +11,6 @@ a {
 img {
     width: 100%;
 }
-#navbar  {
-    position: fixed;
-    padding-left: 3%;
-    padding-right: 3.5%;
-    background-color: white;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 10px;
-    top: 2%;
-    color: navy;
-    text-decoration: solid;
-}
 footer {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -35,7 +23,21 @@ h4 {
     margin-top: 1%;
     margin-bottom: 1%;
 }
-#Links {
+#navbar  {
+    position: fixed;
+    padding-left: 3%;
+    padding-right: 3.5%;
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    top: 2%;
+}
+#nav {
+    color: navy;
+    text-decoration: underline;
+    font-family: Arial;
+    text-align: left;
     /*background-color: #4d4d4d;*/
 }
 .padding {
