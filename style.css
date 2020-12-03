@@ -9,6 +9,7 @@ body {
 a {
     display: block; 
     width: 45px;
+    color: darkblue;
 }
 img {
     width: 100%;
