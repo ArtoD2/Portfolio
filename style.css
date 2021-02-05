@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(#0066ff, #66c2ff, white, white, white, white/*#66c2ff, #0066ff*/);
+    background-image: linear-gradient(#0066ff, #66c2ff, white,white, white, white/*#66c2ff, #0066ff*/);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,19 +29,22 @@ h4 {
 h3 {
     color: #003366;
 }
-#navbar  {
+#codeCamp {
+    display: inline;
+}
+#navbar {
     position: fixed;
-    padding-left: 3%;
+    padding-left: 2%;
     padding-right: 3.5%;
     background-color: #f2f2f2;
     border-color: black;
-    border-width: 5px;
+    border-width: 50px;
     border-radius: 10px;
     top: 2%;
 }
 #nav {
     color: navy;
-    text-decoration: underline;
+    text-decoration: wavy;
     font-family: Arial;
     text-align: left;
     /*background-color: #4d4d4d;*/
